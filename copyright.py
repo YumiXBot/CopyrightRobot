@@ -8,9 +8,9 @@ import psutil
 import platform
 # -------------------------------------------------------------------------------------
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME","Group_SecurityRobot")
+BOT_USERNAME = os.environ.get("BOT_USERNAME","NottyyXBot")
 
-OWNER_ID = "6664582540"
+OWNER_ID = "6079943111"
 # -------------------------------------------------------------------------------------
 
 API_ID = "6435225" # 
@@ -35,7 +35,7 @@ start_txt = """<b> 🤖 𝖦𝗋𝗈𝗎𝗉 𝖲𝖾𝖼𝗎𝗋𝗂𝗍𝗒 �
 
 𝖥𝖾𝖾𝗅 𝖿𝗋𝖾𝖾 𝗍𝗈 𝗋𝖾𝗉𝗈𝗿𝗍 𝖺𝗇𝗒 𝖼𝗈𝗇𝖼𝖾𝗋𝗇𝗌, 𝖺𝗇𝖽 𝗅𝖾𝗍'𝗌 𝗐𝗈𝗋𝗄 𝗍𝗈𝗀𝖾𝗍𝗁𝖾𝗋 𝗍𝗈 𝗆𝖺𝗄𝖾 𝗍𝗁𝗂𝗌 𝖼𝗈𝗆𝗆𝗎𝗇𝗂𝗍𝗒 𝗍𝗁𝗋𝗂𝗏𝖾! 🤝🔐 """
 
-@app.on_message(filters.command("start"))
+@app.on_message(filters.command("alonestart"))
 async def start(_, msg):
     buttons = [
         [ 
@@ -57,7 +57,7 @@ async def start(_, msg):
 gd_buttons = [              
         [
             InlineKeyboardButton("ᴏᴡɴᴇʀ", user_id=OWNER_ID),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/HEROKUFREECC"),    
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/AloneXBots"),    
         ]
         ]
 
